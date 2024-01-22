@@ -1,0 +1,24 @@
+#popular-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-top: 50px;
+    .top-title{
+        h2{
+            font-size: 35px;
+        }
+    }
+    .images{
+        margin-top: 40px;
+        display: flex;
+        gap: 40px;
+        h4{
+            font-size: 20px;
+        }
+        img{
+            width: 330px;
+            height: 260px;
+        }
+    }
+}

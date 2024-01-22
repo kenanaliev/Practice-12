@@ -1,0 +1,79 @@
+#services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   .common{
+    display: flex;
+    .up{
+        .online-part{
+            p{
+                width: 280px;
+                margin-top: 20px;
+            }
+            img{
+                width: 35px;
+                margin-bottom: 20px;
+            }
+        }
+    
+        .indoor-part{
+            p{
+                width: 280px;
+                margin-top: 20px;
+            }
+            img{
+                width: 35px;
+                margin-bottom: 20px;
+            }
+        }
+    
+        .amazing-part{
+            p{
+                width: 280px;
+                margin-top: 20px;
+            }
+            img{
+                width: 35px;
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+    .down{
+        .online-part{
+            p{
+                width: 280px;
+                margin-top: 20px;
+            }
+            img{
+                width: 35px;
+                margin-bottom: 20px;
+            }
+        }
+    
+        .indoor-part{
+            p{
+                width: 280px;
+                margin-top: 20px;
+            }
+            img{
+                width: 35px;
+                margin-bottom: 20px;
+            }
+        }
+    
+        .amazing-part{
+            p{
+                width: 280px;
+                margin-top: 20px;
+            }
+            img{
+                width: 35px;
+                margin-bottom: 20px;
+            }
+        }
+    }
+   }
+   
+}

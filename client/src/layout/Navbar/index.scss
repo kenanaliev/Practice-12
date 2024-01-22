@@ -1,0 +1,55 @@
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+    width: 1200px;
+    height: 110px;
+    border: 1px solid black;
+    background-color: white;
+    margin-left: 300px;
+    position: absolute;
+    top: 0;
+    
+    .left{
+        display: flex;
+        h3{
+          margin-top: 9px;
+          margin-left: 10px;
+        }
+    }
+
+    .between{
+        ul{
+            display: flex;
+            gap: 15px;
+            font-size: 15px;
+            li{
+                color: black;
+                a{
+                    color: black;
+                }
+            }
+            li:hover{
+                color: orange;
+                a{
+                    color: orange;
+                }
+            }
+            
+        }
+       
+    }
+
+    .right{
+        display: flex;
+        gap: 10px;
+     
+        p{
+            color: white;
+        }
+        i{
+            color: white;
+        }
+    }
+}

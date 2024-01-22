@@ -1,0 +1,45 @@
+#footer{
+    background-color: rgb(70, 69, 69);
+    display: flex;
+    justify-content: space-around;
+   
+    .logo{
+        display: flex;
+    }
+    .course{
+        margin-top: 40px;
+        p{
+            width: 200px;
+            color: white;
+        }
+    }
+    .menu{
+        margin-top: 40px;
+        color: white;
+        ul{
+            color: gray;
+        }
+    }
+
+    .usefull{
+        margin-top: 40px;
+        color: white;
+        ul{
+            color: gray;
+        }
+    }
+    .contact{
+        margin-top: 40px;
+        color: white;
+        ul{
+            color: gray;
+        }
+    }
+
+    ul:hover{
+        li:hover{
+            color: orange;
+        }
+    }
+
+}
